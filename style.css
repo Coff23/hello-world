@@ -1,7 +1,7 @@
 /* Anatomy of CSS selector {property: value;}*/
 
 body{
-    background-color: black;
+    background-color: rgb(32, 6, 6);
 }
 
 h1{
