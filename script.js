@@ -20,7 +20,8 @@ function animalChoice(){
         document.write(" They are fascinating, did you know bush babies jump from tree to tree making it look like they are able to fly!");
     }
     else fix = prompt("Error " + favAnimal + " was not one of the options!");
-    console.log(fix)
+    
+
     if(fix == "dogs"){
         document.write(" They are fascinating, did you know dogs were bread for different reason all coming from wolves originally!");
     }
@@ -30,11 +31,10 @@ function animalChoice(){
     else if(fix == "bush babies"){
         document.write(" They are fascinating, did you know bush babies jump from tree to tree making it look like they are able to fly!");
     }
-    else document.write(" You really do not follow instructions...")
+    else return animalChoice();
+    
     return document.write();
 }
-
-
 
 function secretLinks(){
     let moreInfo = prompt("Wanna know a secret about this page? yes or no");
