@@ -10,6 +10,7 @@ function greeting(){
 function animalChoice(){
     let favAnimal = prompt("Which of these three animals do you like the most? Bush babies, owls, or dogs");
     console.log(favAnimal);
+    let fix = prompt("Error " + favAnimal + " was not one of the options!");
     if(favAnimal == "dogs"){
         document.write(" They are fascinating, did you know dogs were bread for different reason all coming from wolves originally!");
     }
@@ -19,8 +20,8 @@ function animalChoice(){
     else if(favAnimal == "bush babies"){
         document.write(" They are fascinating, did you know bush babies jump from tree to tree making it look like they are able to fly!");
     }
-    else fix = prompt("Error " + favAnimal + " was not one of the options!");
-    
+    else fix;
+    console.log(fix)
 
     if(fix == "dogs"){
         document.write(" They are fascinating, did you know dogs were bread for different reason all coming from wolves originally!");
@@ -43,5 +44,5 @@ function secretLinks(){
         document.write(" Click the pictures!");
     }
     else document.write(" Fine I won't tell you...");
-    return document.write();
+    return document.write(moreInfo);
 }
