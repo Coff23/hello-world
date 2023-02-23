@@ -1,31 +1,3 @@
-// let myName = "Josh";
-// alert("Welcome to my website!");
-
-// // let and const only in 102
-// // let can be changed
-// // const cant change
-
-// // Data types
-// // string   "text" or "numbers"
-// // numbers   numbers 123 etc
-// // boolean   true of false
-
-// console.log("Hello world!");
-
-// let myFavColor = "cyan";
-// console.log(myFavColor);
-
-// let myAge = 28; 
-// // input from user
-
-// let userName = prompt("What is your name?");
-// console.log(userName);
-
-// alert("Hello, " + userName);
-
-// // writing to the html doc
-
-// document.write("Hello World");
 
 let userName = prompt("Hello! What is your name?");
 console.log(userName);
