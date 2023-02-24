@@ -2,7 +2,7 @@
 
 function greeting() {
     let userName = prompt("Hello! What is your name?");
-    console.log(userName);
+    console.log("Name: " + userName);
     document.write("Hello, " + userName);
     return document.write();
 }
@@ -11,7 +11,7 @@ function greeting() {
 
 function animalChoice() {
     let favAnimal = prompt("Which of these three animals do you like the most? Bush babies, owls, or dogs");
-    console.log(favAnimal);
+    console.log("Animal choice: " + favAnimal);
     if (favAnimal == "dogs") {
         document.write(" They are fascinating, did you know dogs were bread for different reason all coming from wolves originally!");
     }
@@ -35,7 +35,7 @@ function animalChoice() {
 
 function secretLinks() {
     let moreInfo = prompt("Wanna know a secret about this page? yes or no");
-    console.log(moreInfo);
+    console.log("Do they want more info: " + moreInfo);
     if (moreInfo == "yes") {
         document.write(" Click the pictures!");
     }
@@ -47,7 +47,7 @@ function game(){
     let answer;
     while(answer != 7){
         answer = prompt("Guess an number between 1-10.");
-        console.log(answer);
+        console.log("Answer to the game: " + answer);
         if(answer != 7){
             alert("Try again");
         } else{
@@ -62,6 +62,7 @@ function addFish(){
     let fish = prompt("wanna add some fish to the page? how many 1-10?");
     for(let i = 0; i < fish; i++){
         output += "<img class='fishPic' src='fish.jpg'/>";
+        console.log(fish + " fish");
     }
     return document.write(output);
 }
