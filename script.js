@@ -60,8 +60,8 @@ game();
 function addFish(){
     let output = '';
     let fish = prompt("wanna add some fish to the page? how many 1-10?");
-    for(let i = 0; i < rating; i++){
-        output += "<img class='fishPic' src='fish.jpg'/>;
+    for(let i = 0; i < fish; i++){
+        output += "<img class='fishPic' src='fish.jpg'/>";
     }
     return document.write(output);
 }
